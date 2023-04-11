@@ -16,3 +16,11 @@
 - [ ] IR LED
 - [ ] 老舊型冷氣(型號有空補上)
 - [ ] SW (button), LED, Resistor
+
+# 實體DEMO (接線圖參考)
+<img src="https://user-images.githubusercontent.com/52557611/231063657-95e24ada-29ec-4d60-af4b-39a547a81723.jpg" width="400px">
+
+# 操作教學
+- 僅能在21點到1點開機進行設定(之後就可以Alaways on power)
+- 根據上圖所示LED閃第二下代表22點，此時按下SW及設定完成
+- 根據Code燒錄時設定寫死觸發溫度及運作時間(晚上睡覺時間自動開關，白天休眠)
