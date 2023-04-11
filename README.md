@@ -1,0 +1,2 @@
+# ATtiny85_DHT11_IRsend
+這是一個使用ATtiny85讀取DHT11並發送IR紅外線進行控制的小電路
