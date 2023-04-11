@@ -24,3 +24,8 @@
 - 僅能在21點到1點開機進行設定(之後就可以Alaways on power)
 - 根據上圖所示LED閃第二下代表22點，此時按下SW及設定完成
 - 根據Code燒錄時設定寫死觸發溫度及運作時間(晚上睡覺時間自動開關，白天休眠)
+
+# 自行修改部分
+- 自行錄製IR code(除非你剛好跟我家冷氣IR Code一樣)
+- 調整運作時間 code at：if(NowHour >= 9 && NowHour < 23 || NowHour == 4 || NowHour == 5) needWork=false;
+- 調整觸發溫度 code at: if(temp >= 28
